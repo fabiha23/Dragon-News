@@ -35,5 +35,13 @@ export const router = createBrowserRouter([
                 element: <Register></Register>
             }
         ]
+    },
+    {
+        path:'/news',
+        element:<h1>hhh</h1>
+    },
+    {
+        path:'/*',
+        element:<h1>error</h1>
     }
 ])
